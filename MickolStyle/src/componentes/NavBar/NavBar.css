@@ -1,0 +1,65 @@
+header{
+display: flex;
+align-items: center;
+justify-content:space-between;
+border-bottom: 1px solid black;
+padding: 0px;
+margin: 0px;
+
+h1{
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0;
+
+     /* Borde de las letras */
+     -webkit-text-stroke: 2px rgb(0, 0, 0); /* Ancho y color del borde */
+     color: rgb(172, 154, 0); /* Color de la letra principal */
+ 
+     /* Sombra */
+     text-shadow: 30px 30px 10px rgba(0, 0, 0, 0.5); /* Offset X, Y, Blur, Color */
+    
+}
+
+h2{
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0;
+
+     /* Borde de las letras */
+     -webkit-text-stroke: 1px rgb(0, 0, 0); /* Ancho y color del borde */
+     color: rgba(189, 171, 11, 0.904); /* Color de la letra principal */
+ 
+     /* Sombra */
+     
+    
+}
+
+
+position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #e3e641; /* Color claro para visibilidad */
+  padding: 0;
+  box-shadow: 15px 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 0;
+}
+
+.ImagenLogo{
+width: 140px;
+margin-right: 0;
+}
+
+
+li{
+
+display: inline-block;
+margin: 15px;
+
+}
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}

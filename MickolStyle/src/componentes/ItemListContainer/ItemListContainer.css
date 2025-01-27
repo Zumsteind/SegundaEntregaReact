@@ -1,0 +1,13 @@
+h1{
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0;
+
+     /* Borde de las letras */
+     -webkit-text-stroke: 2px rgb(0, 0, 0); /* Ancho y color del borde */
+     color: rgb(172, 154, 0); /* Color de la letra principal */
+ 
+     /* Sombra */
+     text-shadow: 30px 30px 10px rgba(0, 0, 0, 0.5); /* Offset X, Y, Blur, Color */
+    
+}

@@ -1,0 +1,29 @@
+.carProducto{
+
+background-color: gray;
+border-radius: 10px;
+width: 20rem;
+margin: 1rem;
+padding: 1rem;
+display: flex;
+flex-wrap: wrap;
+flex-direction:column;
+align-items: center;
+
+}
+
+.carProducto img{
+    width: 250px;
+    margin: 0rem;
+    padding: 0rem;
+    object-fit: contain;
+}
+
+.carProducto button{
+background-color: goldenrod;
+color: blue;
+font-size: 1.2rem;
+border-radius: 10px;
+border: none;
+padding: 10px,20px;
+}
