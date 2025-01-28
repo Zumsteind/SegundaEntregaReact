@@ -9,9 +9,9 @@ const Item = ({id,nombre,precio,img}) => {
     <div className='carProducto'>
 
         <img src={img} alt={nombre}  />
-        <h3> nombre ={nombre} </h3>
-        <p>precio={precio}</p>
-        <p>id={id}</p>
+        <h3> {nombre} </h3>
+        <p>Precio: {precio} $</p>
+        <p>Id: {id}</p>
         
 
        
