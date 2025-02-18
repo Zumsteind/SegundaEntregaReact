@@ -13,6 +13,8 @@ const CartItem = ({item,cantidad}) => {
         <p>Cantidad : {cantidad}</p>
         <p>Precio: {item.precio}</p>
         <button onClick={()=>eliminarProducto(item.id)}> Eliminar</button>
+
+        <hr></hr>
     </div>
   )
 }

@@ -6,8 +6,9 @@ import { Link } from 'react-router-dom';
 const NavBar = () => {
   return (
                 <header>
-                
-                <img className='ImagenLogo' src="./imagenes/logoMickolStyle.jpg"  alt="Imagen Loco Mickol Style" />
+                <Link to="/">
+                <img className='ImagenLogo' src="./img/logoMickolStyle.jpg"  alt="Imagen Loco Mickol Style" />
+                </Link>
                 <h1>LoDeMickol Style</h1>
                     
                     
