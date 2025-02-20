@@ -24,3 +24,13 @@
     margin: 3rem;
 
 }
+
+.terminarCompra{
+    background-color: #EAFF6A;
+    color: black;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: 1 black;
+    padding: 10px,20px;
+    margin: 10px;
+    }

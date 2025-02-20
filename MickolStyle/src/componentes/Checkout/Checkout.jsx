@@ -80,12 +80,17 @@ const Checkout = () => {
 
   return (
     <div className='ContenedorCarrito'> 
-        <h2>Checkout Final</h2>
-
+        <h2 className='titulo'>Checkout Final</h2>
+        <br /><br />
+        <hr />
+        <div>
         <form onSubmit={manejadorFormulario}>
+
+            <h4>Productos:</h4>
             {
                 carrito.map(producto => (
                     <div key={producto.item.id}>
+                        
                         <p>{producto.item.nombre} X {producto.cantidad}</p>
                         <p>{producto.precio}</p>
                         <hr/>
@@ -116,7 +121,7 @@ const Checkout = () => {
                 error && <p style={{color: "red"}}> {error}</p>
              }
 
-             <button type="submit">Confirmar compra</button>
+             <button className='botonFinalizar' type="submit">Confirmar compra</button>
              {
                 ordenId && (
                     <strong>
@@ -125,6 +130,9 @@ const Checkout = () => {
                 )
              }
         </form>
+
+        </div>
+       
     </div>
   )
 }

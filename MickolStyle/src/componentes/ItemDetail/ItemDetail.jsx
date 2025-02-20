@@ -5,6 +5,7 @@ import Contador from '../Contador/Contador';
 import { CarritoContext } from '../Context/CarritoContext';
 import { useContext } from 'react';
 import { toast } from 'react-toastify';
+import { Button } from 'bootstrap';
 
 const ItemDetail = ({id,nombre,stock,precio,img,descripcion}) => {
 
@@ -45,7 +46,7 @@ const ItemDetail = ({id,nombre,stock,precio,img,descripcion}) => {
          
 
           {
-           agregarCantidad > 0 ? (<Link to="/cart">Terminar Compra</Link>) : (<Contador inicial={1} stock={stock} funcionAgregar={manejadorCantidad}/>)
+           agregarCantidad > 0 ? (<Link  to="/cart" className='terminarCompra'>Terminar compra </Link>) : (<Contador inicial={1} stock={stock} funcionAgregar={manejadorCantidad}/>)
           }
 
       </div>

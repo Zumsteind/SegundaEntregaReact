@@ -1,5 +1,7 @@
 .ContenedorCarrito{
-
+    margin-top: 5rem;
+display: flex;
+flex: auto;
     text-align: center;
     border: 1px solid black;
     margin: 4rem;
@@ -7,3 +9,15 @@
     margin-top: 8rem;
 
 }
+
+.botonFinalizar{
+    background-color: #EAFF6A;
+    color: black;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: 1 black;
+    padding: 10px,20px;
+    margin: 10px;
+    }
+
+  
