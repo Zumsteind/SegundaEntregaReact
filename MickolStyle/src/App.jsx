@@ -22,9 +22,9 @@ function App() {
   return (
 
 
-      
+      < >
 
-    <Router>
+<Router>
         <CarritoProvider>
             <NavBar />
 
@@ -43,8 +43,12 @@ function App() {
 
 
 
+      </>
 
-    
+
+
+
+
 
   )
 }
@@ -57,12 +61,12 @@ function App() {
 //   return (
 //     <>
 //     <NavBar />
-    
+
 //     <ItemListContaines/>
-    
+
 //     <ItemDetailContainer/>
 
-    
+
 //     </>
 //   )
 // }

@@ -8,6 +8,8 @@ flex: auto;
 
     margin-top: 8rem;
 
+    
+
 }
 
 .botonFinalizar{
@@ -20,4 +22,29 @@ flex: auto;
     margin: 10px;
     }
 
+    .DetalleFormulario{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+            text-align:start;
+
+
+    }
+
+    .InputALaDerecha{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        text-align:end;
+
+
+    }
+
+    label{
+
+        color: #BFA181;
+
+    }
   
+   

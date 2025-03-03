@@ -1,13 +1,89 @@
 .ContenedorItem{
 
     text-align: center;
-    border: 1px solid black;
-    margin: 4rem;
-
-    margin-top: 8rem;
+    background-color: #222021;
+border-radius: 13px;
+border: 1px solid #e0aa16;
+width: 50rem;
+margin: 8rem;
+padding: 1rem;
+display: flex;
+flex-wrap: wrap;
+flex-direction:column;
+align-items: center;
 
 }
 
+.contenedorDetalleProducto{
+
+    text-align: center;
+    background-color: #222021;
+border-radius: 13px;
+border: 0px solid #e0aa16;
+width: auto;
+margin: 15px;
+padding: 10px;
+display: flex;
+flex-wrap: wrap;
+flex-direction:column;
+align-items:flex-start;
+
+}
+
+h1{
+
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0;
+    font-size: 35px;
+  
+     /* Borde de las letras */ 
+     -webkit-text-stroke: 0px rgb(252, 252, 252); /* Ancho y color del borde */
+     color: #BFA181 !important; /* Color de la letra principal */
+  
+     /* Sombra */
+     text-shadow: 25px 20px 20px #998065; /* Offset X, Y, Blur, Color */
+     /* animation: flip 5s ease forwards; */
+  
+  
+  
+    /* Efecto de brillo dorado */
+    animation: goldGlow 1s infinite alternate;
+}
+
+
+h3{
+
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0;
+    font-size: 20px;
+  
+     /* Borde de las letras */ 
+     -webkit-text-stroke: 0px rgb(252, 252, 252); /* Ancho y color del borde */
+     color: #BFA181 !important; /* Color de la letra principal */
+  
+}
+
+p{
+
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0;
+    font-size: 20px;
+  
+     /* Borde de las letras */ 
+     -webkit-text-stroke: 0px rgb(252, 252, 252); /* Ancho y color del borde */
+     color: #BFA181 !important; /* Color de la letra principal */
+  
+    
+     /* animation: flip 5s ease forwards; */
+  
+  
+  
+    /* Efecto de brillo dorado */
+    animation: goldGlow 0s infinite alternate;
+}
 .ContenedorItem img{
 
     text-align: center;
@@ -26,11 +102,13 @@
 }
 
 .terminarCompra{
-    background-color: #EAFF6A;
-    color: black;
+ 
+
+    background-color: #0A1828;
+    color:#EAFF6A;
     font-size: 1.2rem;
     border-radius: 10px;
-    border: 1 black;
+    border: 1px solid #e0aa16;
     padding: 10px,20px;
-    margin: 10px;
+
     }

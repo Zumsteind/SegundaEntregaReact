@@ -33,23 +33,32 @@ const ItemDetail = ({id,nombre,stock,precio,img,descripcion}) => {
       }
 
     return (
-      <div className='ContenedorItem'>
-          
-          <h1>Detalle de Producto</h1>
-          <h3>{nombre} </h3>
-          <p>Precio: {precio} $</p>
-          <p>Codigo: {id}</p>
-          <p>Stock: {stock}</p>
-          <img src={img} alt={nombre}  />
-         
-          <p>{descripcion}</p>
-         
+      
+          <div className='ContenedorItem'>
+                    
+                    <h1>Detalle de Producto</h1>
+                    <div className='contenedorDetalleProducto'>
+                          <h3>{nombre} </h3>
+                         <p >Codigo: {id}</p>
+                          
+                          
 
-          {
-           agregarCantidad > 0 ? (<Link  to="/cart" className='terminarCompra'>Terminar compra </Link>) : (<Contador inicial={1} stock={stock} funcionAgregar={manejadorCantidad}/>)
-          }
+                    </div>
+                    
+                    <img src={img} alt={nombre}  />
+                  
+                    <p>{descripcion}</p>
+                    <p>Stock: {stock}</p>
+                    <p>Precio: {precio} $</p>
 
-      </div>
+                    {
+                    agregarCantidad > 0 ? (<Link  to="/cart" className='terminarCompra'>Terminar compra </Link>) : (<Contador inicial={1} stock={stock} funcionAgregar={manejadorCantidad}/>)
+                    }
+
+                </div>
+
+      
+     
     )
 }
 

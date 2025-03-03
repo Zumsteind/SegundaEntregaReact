@@ -1,18 +1,33 @@
 .botonContador{
-    background-color: #EAFF6A;
-    color: black;
+   
+
+    background-color: #0A1828;
+    color:#EAFF6A;
     font-size: 1rem;
     border-radius: 10px;
-    border: none;
-    padding: 10px,20px;
+    border: 1px solid #e0aa16;
+    padding: 5px,5px;
     margin: 10px;
     }
 
     .botonContador1{
-        background-color:#EAFF6A;
-        color: black;
-        font-size: 0.8rem;
+        
+        background-color: #0A1828;
+        color:#EAFF6A;
+        font-size: 1.2rem;
         border-radius: 7px;
-        border: none;
-        padding: 7px 10px;
+        border: 1px solid #e0aa16;
+        padding: 2px 7px;
+        margin-left: 5px;
         }
+
+        .botonContador0{
+        
+            background-color: #0A1828;
+            color:#EAFF6A;
+            font-size: 1.2rem;
+            border-radius: 7px;
+            border: 1px solid #e0aa16;
+            padding: 2px 7px;
+            margin-right: 10px;
+            }

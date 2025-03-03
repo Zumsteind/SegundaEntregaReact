@@ -26,8 +26,8 @@ const Contador = ({inicial,stock,funcionAgregar}) => {
 
             
     <div>
-            <button className='botonContador1' onClick={restarContador}>-</button>
-                <strong> {contador} </strong>
+            <button className='botonContador0' onClick={restarContador}>-</button>
+                <strong>  {contador}  </strong>
                 <button className='botonContador1' onClick={sumarContador}>+</button>
 
 

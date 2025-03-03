@@ -80,13 +80,13 @@ const Checkout = () => {
 
   return (
     <div className='ContenedorCarrito'> 
-        <h2 className='titulo'>Checkout Final</h2>
+        <h1 className='titulo'>Checkout Final</h1>
         <br /><br />
         <hr />
         <div>
         <form onSubmit={manejadorFormulario}>
 
-            <h4>Productos:</h4>
+            <h3>Productos:</h3>
             {
                 carrito.map(producto => (
                     <div key={producto.item.id}>
@@ -97,26 +97,32 @@ const Checkout = () => {
                     </div>
                 ))
             }
-             <div>
-                <label htmlFor="">Nombre</label>
-                <input type="text"  onChange={(e)=>setNombre(e.target.value)}/>
-             </div>
-             <div>
-                <label htmlFor="">Apellido</label>
-                <input type="text" onChange={(e)=>setApellido(e.target.value)}/>
-             </div>
-             <div>
-                <label htmlFor="">Telefono</label>
-                <input type="text" onChange={(e)=>setTelefono(e.target.value)} />
-             </div>
-             <div>
-                <label htmlFor="">Email</label>
-                <input type="email" onChange={(e)=>setEmail(e.target.value)}/>
-             </div>
-             <div>
-                <label htmlFor="">Email Confirmación</label>
-                <input type="email" onChange={(e)=>setEmailConfirmacion(e.target.value)}/>
-             </div>                                                     
+
+            <div className='DetalleFormulario'>
+                    <div>
+                        <label htmlFor="">Nombre</label>
+                        <input className='InputALaDerecha' type="text"  onChange={(e)=>setNombre(e.target.value)}/>
+                    </div>
+                    <div>
+                        <label htmlFor="">Apellido</label>
+                        <input className='InputALaDerecha' type="text" onChange={(e)=>setApellido(e.target.value)}/>
+                    </div>
+                    <div>
+                        <label htmlFor="">Telefono</label>
+                        <input className='InputALaDerecha' type="text" onChange={(e)=>setTelefono(e.target.value)} />
+                    </div>
+                    <div>
+                        <label htmlFor="">Email</label>
+                        <input className='InputALaDerecha' type="email" onChange={(e)=>setEmail(e.target.value)}/>
+                    </div>
+                    <div>
+                        <label htmlFor="">Email Confirmación</label>
+                        <input className='InputALaDerecha' type="email" onChange={(e)=>setEmailConfirmacion(e.target.value)}/>
+                    </div>              
+
+
+            </div>
+                                                    
              {
                 error && <p style={{color: "red"}}> {error}</p>
              }

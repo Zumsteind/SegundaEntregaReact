@@ -32,6 +32,24 @@ h2{
 
 .Contenedor{
 
-    margin-top: 7rem;
+    margin-top: 1rem;
+    display: flex;
+flex-wrap: wrap;
+flex-direction:column;
+align-items: center;
 }
+
+
+/* Responsive */
+@media (max-width: 768px) {
+ 
+    .Contenedor{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:column;
+        align-items: center;
+       
+    }
+
+  }
 

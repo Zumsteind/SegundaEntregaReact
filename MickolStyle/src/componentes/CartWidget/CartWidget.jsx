@@ -6,7 +6,7 @@ import { CarritoContext } from '../Context/CarritoContext'
 
 const CartWidget = () => {
             
-  const carritoImage = "https://cdn-icons-png.flaticon.com/512/846/846423.png"
+  const carritoImage = "https://img.freepik.com/vector-premium/plantilla-vector-icono-carrito-compras-color-dorado_917138-3031.jpg"
   const {cantidadTotal} = useContext(CarritoContext)
     return (
     

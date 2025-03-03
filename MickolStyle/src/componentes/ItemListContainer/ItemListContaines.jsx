@@ -54,7 +54,7 @@ useEffect(()=>{
   return (
     <div className='Contenedor'>
         
-        <h2>Mis productos</h2>
+        {/* <h2>Mis productos</h2> */}
     {loading ? <Loader/> : <ItemList productos={Productos} />   }  
     {/* si el loadin variable es true muestra el cargando sino muestra los productos. */}
     </div>

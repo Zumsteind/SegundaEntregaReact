@@ -10,13 +10,17 @@ const CartItem = ({item,cantidad}) => {
 
   return (
     <div>
-        <h4>{item.nombre}</h4>
-        <p>Cantidad : {cantidad}</p>
-        <p>Precio: {item.precio}</p>
+        <h3>{item.nombre}</h3>
+        <div className="DetalleProducto">
+          <p>Cantidad : {cantidad}</p>
+          <p>Precio: {item.precio} $</p>
+
+        </div>
+       
         
         <button className="EliminarItem" onClick={()=>eliminarProducto(item.id)}> Eliminar Producto</button>
 
-        <hr></hr>
+        <hr className="colorlinea"></hr>
     </div>
   )
 }

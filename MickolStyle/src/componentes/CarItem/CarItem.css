@@ -1,9 +1,25 @@
 .EliminarItem{
-    background-color: #dd3851;
-    color: black;
-    font-size: 0.9rem;
-    border-radius: 5px;
-    border: 1 black;
+  
+
+
+    background-color: #0A1828;
+    color:#EAFF6A;
+    font-size: 1.2rem;
+    border-radius: 7px;
+    border: 1px solid #e0aa16;
     padding: 4px;
     margin: 5px;
+    }
+
+    .DetalleProducto{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+
+    }
+    .colorlinea{
+
+      
+        border: 1px solid #EAFF6A;
     }
