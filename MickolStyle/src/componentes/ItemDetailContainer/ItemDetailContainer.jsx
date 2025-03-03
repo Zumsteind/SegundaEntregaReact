@@ -34,7 +34,7 @@ const ItemDetailContainer = () => {
 
 
   return (
-    <div>
+    <div className='ContenedorDetalles'>
 
         <ItemDetail  {...producto}/>
 

@@ -68,3 +68,30 @@ h3{
      color: #c9a132 !important; /* Color de la letra principal */
   
   }
+
+
+  /* Responsive */
+@media (max-width: 768px) {
+    .carProducto {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center; /* Centra los items horizontalmente */
+      justify-content: center; /* Centra los items verticalmente */
+      height: 100vh; /* Ocupa toda la altura de la pantalla */
+      text-align: center;
+      width: 300px !important; /* Asegura que el contenedor ocupe todo el ancho de la pantalla */
+      margin: 0 auto; /* Centra el contenedor horizontalmente */
+
+
+
+    }
+
+    .carProducto img{
+        border-radius: 13px;
+        width: 150px;
+        margin: 0rem;
+        padding: 1rem;
+        object-fit: contain;
+    }
+  }
