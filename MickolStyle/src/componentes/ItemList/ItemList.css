@@ -4,3 +4,14 @@ display: flex;
 flex-wrap: wrap;
 
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .ContenedorDeProductos{
+        margin-top: 5rem;
+        margin: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        
+        }
+  }
