@@ -114,21 +114,3 @@ p{
     }
 
       /* Responsive */
-@media (max-width: 768px) {
-    .ContenedorItem {
-    
-        text-align: center;
-        background-color: #222021;
-    border-radius: 13px;
-    border: 1px solid #e0aa16;
-    width: 400px;
-    margin: 8rem;
-    padding: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction:column;
-    align-items: center;
-    }
-
-  
-  }
